@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -27,7 +27,7 @@ char可以用(int)变量 变量里的字符转换成对应的ascii数;
 int main() {
     long long a = 10;
     long b = 10;
-    short c = 131072; // c will overflow
+    short c = 131; // c will overflow
     int d = 10;
     
     cout << "a = " << a << "\n";
@@ -36,5 +36,5 @@ int main() {
     cout << "d = " << d << "\n";
 
     cout << sizeof(short) << endl;
-
+    return 0;
 };
