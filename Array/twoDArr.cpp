@@ -1,10 +1,10 @@
 //20250709
-
+//c++的二维数组就是数组套数组
 #include<iostream>
 using namespace std;
 
 int main(){
-    int arr[3][4]; // 3行4列
+    int arr[3][4]; // 3行4列 3*4
 
     int arr1[4][4]={
         {1,2},
