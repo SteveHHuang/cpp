@@ -6,5 +6,7 @@
 /Iteration(loop)/output
 /Array/output
 /Func_void/output
+/Pointer/output
 
 *.exe
+temp.cpp

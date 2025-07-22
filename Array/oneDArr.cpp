@@ -16,6 +16,10 @@ int main(){
         b[i] = i;
         cout << b[i] <<'\n';
     };
+    cout << '\n';
+    // 0713 ptr
+    cout << *b << '\n';
+    cout << *b+1 << '\n';
 
     /*
     for (int i=0; i<=1024; ++i){

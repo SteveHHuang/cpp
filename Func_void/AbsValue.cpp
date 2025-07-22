@@ -8,7 +8,7 @@ using namespace std;
 int main(){
     double x;
     while (cin >> x){
-        x = fabs(x);
+        x = fabs(x); //fabs可用于取绝对值
         printf("%.2lf\n", x);
     }   
     return 0;
