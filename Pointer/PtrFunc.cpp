@@ -7,16 +7,19 @@ int* func(){
 }
 
 int* getArithmeticSeq(int a,int d,int n){
-    int* result = new int [n];
+    int* result = new int [n]; //手动申请一片动态内存，给到长度为n的int类型数组
     
     for(int i = 0; i<n; ++i){
         result[i] = a +i*d;
     }
+    //delete[] result; 手动删除这块动态内存
     return result;
 }
 
 int main(){
+    
     int *seriesA = getArithmeticSeq(1,2,10);
+    delete[] seriesA;
     
     for(int i=0; i<10; ++i){
         cout << *(seriesA+i) << '\n'; //通过指针偏移并解引用输出

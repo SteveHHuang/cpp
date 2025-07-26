@@ -11,6 +11,7 @@ using namespace std;
 int main(){
     int a[1024]; //size是1024，最后一个下标是1023
     int b[512] = {1,2,3}; // 未初始化的元素默认为0
+    //中括号内不加数代表这个数组长度非固定
 
     for (int i=0; i<512; ++i){
         b[i] = i;
