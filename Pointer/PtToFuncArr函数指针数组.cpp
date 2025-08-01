@@ -1,6 +1,6 @@
 #include <iostream>
 
-using   namespace std;
+using namespace std;
 // 20250723
 // 函数指针数组
 

@@ -19,7 +19,6 @@ int* getArithmeticSeq(int a,int d,int n){
 int main(){
     
     int *seriesA = getArithmeticSeq(1,2,10);
-    delete[] seriesA;
     
     for(int i=0; i<10; ++i){
         cout << *(seriesA+i) << '\n'; //通过指针偏移并解引用输出
