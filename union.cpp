@@ -13,7 +13,7 @@ struct a {
 
 union b {
     int i;
-    char d; 
+    char d;  
     double r[10];
 
 };

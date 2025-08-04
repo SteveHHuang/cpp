@@ -1,17 +1,26 @@
 /output
 
 /.vscode
+
+
 /datatypes/output
 /Selection/output
 /Iteration(loop)/output
 /Array/output
 /Func_void/output
 /Struct/output
-
-
-*.Store
 /Pointer/output
 
+/build
+/datatypes/build
+/Selection/build
+/Iteration(loop)/build
+/Array/build
+/Func_void/build
+/Struct/build
+/Pointer/build
+
 *.exe
+*.obj
 temp.cpp
 .DSStore
