@@ -6,5 +6,9 @@
 /Iteration(loop)/output
 /Array/output
 /Func_void/output
+/Struct/output
+
+
+*.Store
 
 *.exe
