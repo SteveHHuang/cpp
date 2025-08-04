@@ -23,4 +23,4 @@
 *.exe
 *.obj
 temp.cpp
-.DSStore
+.DS_Store
