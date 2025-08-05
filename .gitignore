@@ -2,7 +2,7 @@
 
 /.vscode
 
-
+# macOS executable file
 /datatypes/output
 /Selection/output
 /Iteration(loop)/output
@@ -10,7 +10,9 @@
 /Func_void/output
 /Struct/output
 /Pointer/output
+/MemoryManagement/output
 
+# windows executable file
 /build
 /datatypes/build
 /Selection/build
@@ -24,3 +26,4 @@
 *.obj
 temp.cpp
 .DS_Store
+build_and_run.bat
