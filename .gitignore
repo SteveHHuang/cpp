@@ -22,6 +22,9 @@
 /Struct/build
 /Pointer/build
 
+build_and_run.bat
+
+
 *.exe
 *.obj
 temp.cpp
