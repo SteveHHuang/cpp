@@ -3,24 +3,24 @@
 /.vscode
 
 # macOS executable file
-/datatypes/output
-/Selection/output
-/Iteration(loop)/output
-/Array/output
-/Func_void/output
-/Struct/output
-/Pointer/output
-/MemoryManagement/output
+/Basics/datatypes/output
+/Basics/Selection/output
+/Basics/Iteration(loop)/output
+/Basics/Array/output
+/Basics/Func_void/output
+/Basics/Struct/output
+/Basics/Pointer/output
+/Basics/MemoryManagement/output
 
 # windows executable file
-/build
-/datatypes/build
-/Selection/build
-/Iteration(loop)/build
-/Array/build
-/Func_void/build
-/Struct/build
-/Pointer/build
+/Basics/build
+/Basics/datatypes/build
+/Basics/Selection/build
+/Basics/Iteration(loop)/build
+/Basics/Array/build
+/Basics/Func_void/build
+/Basics/Struct/build
+/Basics/Pointer/build
 
 build_and_run.bat
 
