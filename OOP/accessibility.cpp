@@ -1,7 +1,6 @@
 #include <iostream>
 
 using namespace std;
-// OOP三大特性：封装、继承、多态
 
 /*
 三种访问权限: 
