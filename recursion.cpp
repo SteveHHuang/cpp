@@ -7,6 +7,7 @@ int factorial(int n){
     return n*factorial(n-1);
 }
 
+//e.g. Factorial
 int main(){
     int k;
     while(cin >> k){
