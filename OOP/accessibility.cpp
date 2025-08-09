@@ -44,7 +44,7 @@ int main(){
     // 通过类来生成对象的过程 叫做 实例化
     people hh;
     // 访问对象属性
-    hh.mem_id = 124; // public成员在类外可以访问
+    hh.mem_id = 300; // public成员在类外可以访问
     // hh.mem_houseid = 300; // protected成员在类外不可访问
     // hh.mem_paypwd = 1110; // private成员在类外不可访问
 
