@@ -7,7 +7,7 @@ int factorial(int n){
     return n*factorial(n-1);
 }
 
-//e.g. Factorial
+//e.g. Factorial, summation of consecutive n numbers 
 int main(){
     int k;
     while(cin >> k){
