@@ -11,12 +11,14 @@ struct SeqList{
 
 };
 
+// initialise seqlist
 void initialise(SeqList* list, int capacity){
     list->elements = new eleType[capacity]; //list不是对象，是指针。所以list.elements是错误的
     list->capacity = capacity; //用->来获取结构体指针类型的元素的成员变量
     list->size = 0;
 }
 
+// operations of the seqlist
 void destroyList(SeqList* list){
     delete[] list->elements;
 }
@@ -68,3 +70,31 @@ void deleteEle(SeqList* list, int index){
     }
     list->size --;
 }  
+
+int findEle(SeqList* list, eleType element){
+    for(int i=0; i<list->size; ++i){
+        if (list->elements[i] == element){
+            return i;
+        };
+    }
+    return -1;
+}
+
+eleType getEle(SeqList* list, int index){
+    if (index < 0 || index >= list->size){
+        throw std::invalid_argument("invalid syntax");
+    }
+    return list->elements[index];
+}
+
+void updateEle(SeqList* list, int index, eleType val){
+    if (index < 0 || index >= list->size){
+        throw std::invalid_argument("invalid syntax");
+    }
+    list->elements[index] = val;
+}
+
+int main(){
+
+    return 0;
+}
